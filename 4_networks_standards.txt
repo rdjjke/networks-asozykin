@@ -1,0 +1,53 @@
+NETWORK STANDARDS
+
+! There were no standards in 60-70s. Only devices of the same developer could have worked together. The problem was solved by standartisation.
+
+Standard types:
+1. De jure  - made by eligible organisation
+2. De facto - established by themself
+
+
+Main standards:
+1. ISO (International Organization for Standardization)
+    - Made the reference how open networks should be built
+2. IEEE (Institute of Electrical and Electronics Engineers)
+    - Makes standards for data transfer technologies and devices
+3. IAB (Internet Architecture Board)
+    - Makes standards for the Internet protocols 
+4. W3C (World Wide Web Consortium)
+    - Makes standards for WWW
+
+
+IEEE is splitted into commitees: networks commitee is 802. That's why all our standards numbers are beggining with "802.", i.e.
+- 802.3  Ethernet
+- 802.11 Wi-Fi
+- 802.15 BlueTooth
+- 802.16 WiMAX
+
+
+IAB is splitted into 3 parts:
+1. IEFT (Internet Engeneering Task Force)
+    - Makes standards for network protocols
+2. RFC (Request for comments)
+    - Makes documents with description of protocols made up by IEFT
+3. IRTF (Internet Research Task Force)
+    - Does research
+
+! Every RFC has a number and describes one network protocol. i.e.
+- RFC 793  - TCP
+- RFC 791  - IP
+- RFC 826  - ARP
+- RFC 792  - ICMP
+- RFC 2131 - DHCP
+
+[i] RFC docs - https://www.rfc-editor.org/rfc/
+
+
+W3C standards ("recommendations") examples:
+- HTML
+- CSS
+- Web Services Architecture
+- XML
+
+[i] W3C standards - https://www.w3.org/standards/
+
