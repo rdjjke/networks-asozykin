@@ -1,0 +1,39 @@
+NETWORKS CLASSIFICATION
+
+# By type
+1. Packed-switched
+    - Is used in computer networks
+    - Data is splitted into packets
+    - Reliable: can survive a node failure
+    - Every node should solve the same "Routing problem"
+    - Require more resources - some connection must be made every time
+2. Circuit-switched
+    - Is used in phone networks
+    - Continious flow of data
+    - Not-reliable: all nodes in the route must work properly
+
+[i] Routing algorithms - https://en.wikibooks.org/wiki/Routing_protocols_and_architectures/Routing_algorithms
+
+! Circuit-switched phone networks won't be examined in this course
+
+
+
+# By transmission technology
+1. Broadcast
+    - Entered data is available for all computers
+    - i.e. Classical Ethernet, Wi-Fi
+2. Point-to-Point
+    - Data is transfering from one computer to another (sometimes through a chain of intermediate ones)
+    - i.e. Switched Ethernet
+
+
+
+# By Size
+1. Personal         1m          On desk             i.e. Bluetooth
+2. Local            10m-1km     Room, building      i.e. Ethernet, Wi-Fi
+3. Municipal        10km        City                Municipal networks that provide one connection with all Internet, TV, Phone
+4. Global           100-1000km  Country, continent  In Russia, such networks are made by Rostelekom / Transtelekom
+5. Networks joint   10000km     Whole world         i.e. Internet (TCP/IP)
+
+! Local and Networks joint networks will be examined in this course
+

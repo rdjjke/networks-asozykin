@@ -1,0 +1,29 @@
+NETWORKS TOPOLOGIES
+
+> Topology - a scheme (graph) how computers are connected into a network
+
+Basic topoligies:
+1. Mesh
+    [+] There's a direct way to each computer
+    [-] Requires many wires
+2. Star
+    - The central device is not a computer, it's a network device like switch, hub, router
+3. Ring
+4. Tree
+5. Bus
+6. Hybrid
+    - Is always used in practice
+
+[i] What is network topology and types of network topology? - https://afteracademy.com/blog/what-is-network-topology-and-types-of-network-topology/
+
+> Physical topology - how devices are connected
+VS
+> Logical topology - the rules how devices transfer their signals
+
+! Physical and Logical topologies can differ, i.e. 
+    - Classical Ethernet: Physical - ring (the central device is switch),       Logical - bus
+    - Switched Ethernet:  Physical - ring (the central device is also switch),  Logical - mesh
+=> the only difference is in the central switch that makes different logic
+
+Wi-Fi doesn't have a physical topology at all
+
