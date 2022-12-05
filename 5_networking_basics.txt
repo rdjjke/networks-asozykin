@@ -1,0 +1,51 @@
+NETWORKING BASICS
+
+# Difficulties
+- Many different devices
+- Reliability
+- You must think in advance, because networks must be able to evolve
+- Limited resources distribution between users
+- There are trade-offs such as Quallity VS Speed
+- Security
+=> It's very difficult to design a network
+
+! Networks are built using the "decomposition" method: the whole system is splitted into "layers".
+
+Every layer:
+- Uses a lower layer
+- Provide a service to a higher level
+
+This system has such pros:
+- Single responsibility principle
+- Isolation between not-neighbour layers - so less dependencies
+
+> Service - what the layer do, its functions
+> Interface - what operations lower level provides to higher
+> Protocol - rules for how Nth level from one computer communicates with Nth level from another
+
+! Protocol and Interface are different
+
+Interface:
+- Real communication inside a computer
+VS
+Protocol:
+- Virtual communication with a remote layer through the interface of the lower layer
+- Physical layer is the only layer that communicates in real
+- !!! This communication between the same layers is carried out through "Headers"
+
+> Architecture - describes a set of layers and protocols of a network. Interfaces are not included
+> Protocol stack - an ordered set of protocols sufficient for communication through the network
+
+! There are 2 popular standard models (protocol stacks):
+1. ISO OSI
+    - a law standard
+    - includes 7 layers without specific protocols
+    - good theoretical model
+    - ! Isn't used in practice
+2. TCP/IP
+    - De facto standard
+    - 4 layers
+    - Widely used in practice
+
+> Encapsulation - a principle of including a message of the higher level to the lower level
+
